@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="HardcodedText">
+    <item
+        android:id="@+id/tab_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_home_black"
+        app:showAsAction="ifRoom"
+        android:title="홈" />
+
+    <item
+        android:id="@+id/tab_train"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_dumbbell_black"
+        app:showAsAction="ifRoom"
+        android:title="운동"/>
+
+    <item
+        android:id="@+id/tab_food"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_food_black"
+        app:showAsAction="ifRoom"
+        android:title="크리틴"/>
+
+    <item
+        android:id="@+id/tab_chart"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_graph_black"
+        app:showAsAction="ifRoom"
+        android:title="통계"/>
+
+    <item
+        android:id="@+id/tab_user"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_profile_black"
+        app:showAsAction="ifRoom"
+        android:title="MY"/>
+
+</menu>

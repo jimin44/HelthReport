@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "711280229605",
+    "project_id": "healthreport-c2a56",
+    "storage_bucket": "healthreport-c2a56.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711280229605:android:639b5e0895cbaf53c1680c",
+        "android_client_info": {
+          "package_name": "com.example.healthreport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "711280229605-iu02pdt9bna7eq69j0rpgkrrc8qe0eol.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.healthreport",
+            "certificate_hash": "9906c46deceb3761aba34398307d7a79fd361ac9"
+          }
+        },
+        {
+          "client_id": "711280229605-bcld3e5hgs6e58bd79dlftho85s6a0ll.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_4-uOm1TEFT4SLHvElh1xNoLTEeDxZmU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "711280229605-bcld3e5hgs6e58bd79dlftho85s6a0ll.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

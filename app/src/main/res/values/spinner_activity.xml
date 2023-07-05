@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="activity_array">
+        <item>운동 안함</item>
+        <item>가벼운 운동 (일주일에 1~2번)</item>
+        <item>적당한 운동 (일주일에 4~5번)</item>
+        <item>매일 운동 (일주일에 6~7번)</item>
+        <item>운동 선수 (매일 과도한 운동)</item>
+    </string-array>
+</resources>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:background="@drawable/round_shape"
+        android:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView_height2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="활동량"
+            app:layout_constraintEnd_toEndOf="@+id/textView_height"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/textView_height"
+            app:layout_constraintTop_toBottomOf="@+id/textView_height"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal_height"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="cm"
+            android:inputType="numberDecimal"
+            android:maxLength="3"
+            app:layout_constraintBottom_toBottomOf="@+id/textView_height"
+            app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal_weight"
+            app:layout_constraintHorizontal_bias="0.2"
+            app:layout_constraintStart_toStartOf="@+id/editTextNumberDecimal_weight"
+            app:layout_constraintTop_toTopOf="@+id/textView_height"
+            tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/textView_weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="몸무게"
+            app:layout_constraintEnd_toEndOf="@+id/textView_age"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/textView_age"
+            app:layout_constraintTop_toBottomOf="@+id/textView_age"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal_age"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:maxLength="3"
+            app:layout_constraintBottom_toBottomOf="@+id/textView_age"
+            app:layout_constraintEnd_toEndOf="@+id/radioGroup"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/radioGroup"
+            app:layout_constraintTop_toTopOf="@+id/textView_age"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/textView_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="나이"
+            app:layout_constraintEnd_toEndOf="@+id/textView_gender"
+            app:layout_constraintHorizontal_bias="0.2"
+            app:layout_constraintStart_toStartOf="@+id/textView_gender"
+            app:layout_constraintTop_toBottomOf="@+id/textView_gender"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:id="@+id/textView_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="성별"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/radioGroup"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.2"
+            tools:ignore="HardcodedText" />
+
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal_weight"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="kg"
+            android:inputType="numberDecimal"
+            android:maxLength="3"
+            app:layout_constraintBottom_toBottomOf="@+id/textView_weight"
+            app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal_age"
+            app:layout_constraintHorizontal_bias="0.2"
+            app:layout_constraintStart_toStartOf="@+id/editTextNumberDecimal_age"
+            app:layout_constraintTop_toTopOf="@+id/textView_weight"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/textView_height"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="신장"
+            app:layout_constraintEnd_toEndOf="@+id/textView_weight"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/textView_weight"
+            app:layout_constraintTop_toBottomOf="@+id/textView_weight"
+            tools:ignore="HardcodedText" />
+
+        <Spinner
+            android:id="@+id/spinner_activity"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/textView_height2"
+            app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal_height"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintStart_toStartOf="@+id/editTextNumberDecimal_height"
+            app:layout_constraintTop_toTopOf="@+id/textView_height2"
+            app:layout_constraintVertical_bias="0."
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/button_calcul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2196F3"
+            android:text="계산하기"
+            app:iconTint="#2196F3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinner_activity"
+            app:layout_constraintVertical_bias="0.5"
+            tools:ignore="HardcodedText" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="@+id/textView_gender"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/textView_gender"
+            app:layout_constraintTop_toTopOf="@+id/textView_gender"
+            app:layout_constraintVertical_bias="0.5">
+
+            <RadioButton
+                android:id="@+id/radio_button_male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:text="남성" />
+
+            <RadioButton
+                android:id="@+id/radio_button_female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:text="여성" />
+        </RadioGroup>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
