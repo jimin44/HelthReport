@@ -1,4 +1,6 @@
-# 운동관리 및 단백질 섭취 보조 앱<br/><br/>
+# 운동관리 및 단백질 섭취 보조 앱
+APK File https://drive.google.com/file/d/1xnz4mDw3g681M0o3pWFpBMpSvnVToeiH/view?usp=sharing
+<br/><br/>
 ## 사용 기술 및 개발환경
 - JAVA
 - Android Studio
@@ -11,7 +13,7 @@
 - 단백질 섭취 관리
 - 몸무게, 운동량, 단백질 섭취 통계 기록
 <br/>
-APK File https://drive.google.com/file/d/1xnz4mDw3g681M0o3pWFpBMpSvnVToeiH/view?usp=sharing
+
 <br/><br/>
 
 <img src="https://github.com/jimin44/HelthReport/assets/84115122/933e9022-13b1-4d4b-8138-0c3d747a3473" width="300" height="700"/>
