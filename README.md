@@ -1,9 +1,18 @@
-# HelthReport
-운동관리 및 단백질 섭취 보조 앱입니다.
+# 운동관리 및 단백질 섭취 보조 앱<br/><br/>
+## 사용 기술 및 개발환경
+- JAVA
+- Android Studio
+- Firebase
+<br/>
 
-
+## 기능
+- 로그인 및 회원가입
+- 매일 새로운 운동 루틴 제공
+- 단백질 섭취 관리
+- 몸무게, 운동량, 단백질 섭취 통계 기록
+<br/>
 APK File https://drive.google.com/file/d/1xnz4mDw3g681M0o3pWFpBMpSvnVToeiH/view?usp=sharing
-
+<br/><br/>
 
 <img src="https://github.com/jimin44/HelthReport/assets/84115122/933e9022-13b1-4d4b-8138-0c3d747a3473" width="300" height="700"/>
 <img src="https://github.com/jimin44/HelthReport/assets/84115122/30fa7a7c-5e67-4801-a9bb-6203138eb657" width="300" height="700"/>
